@@ -92,8 +92,42 @@ fieldset.grupo .campo {
 #check {
     display: inline-block;
 }
-@media (max-width: 768px) {
-    body {
-      font-size: 16px;
-    }
-  }
+
+/* Estilo CSS para o rodapé */
+footer {
+    background-color: #f0f8ff;
+    padding: 20px;
+    display: flex;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_contato h4 {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer_contato a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer_icons a {
+    margin-left: 10px;
+}
+
+.footer_icons img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.footer_icons img:hover {
+    opacity: 1;
+}
+
